@@ -52,21 +52,28 @@ p {
 
 /* ヘッダー */
 
+
+
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: uppercase;
+  text-transform:normal;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  font-style: italic;
+  background-color: teal;
 }
 
+
+
 #logo:hover {
-  color: #fff;
+  color: #778899;
   text-decoration: none;
 }
+
 
 /* デバッグウインドウ */
 
@@ -95,4 +102,77 @@ p {
   .form-control {
     color: $state-danger-text;
   }
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #f5f5f5;
+    background-color: teal;
+    font-weight: bold;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #778899;
+}
+
+#header {
+  background-color: teal;
+}
+
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: #778899;
+  background-color: teal!important;
+}
+
+a.dropdown-toggle {
+  background-color: teal!important;
+  
+}
+
+a:focus {
+    background-color: teal;
+    border-color: #fff;
+}
+
+.dropdown-menu > li > a {
+  background-color: #fff!important;
+}
+
+.navbar-inverse {
+  background-color: teal;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #9d9d9d;
+}
+
+.btn-lg, .btn-group-lg > .btn {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.center h1 {
+    font-weight: bold;
+  font-style: italic;
+}
+
+a {
+  color: #333;
+}
+
+a:hover {
+  color: #eee;
+  background-color: #fff;
 }
